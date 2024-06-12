@@ -8,4 +8,6 @@
  */
 export function travelDistance(fuelAmount, fuelEfficiency) {
   // TODO: return the distance by multiplying fuelAmount and fuelEfficiency
+  const distance = fuelAmount * fuelEfficiency
+  return distance
 }
