@@ -7,4 +7,8 @@
  */
 export function isAboveFreezing(temperature) {
   // TODO: return true if temperature is greater than 0
+  if (temperature > 0) {
+    return true
+  }
+  return false
 }

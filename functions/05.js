@@ -8,4 +8,6 @@
  */
 export function itemsPerPerson(totalItems, people) {
   // TODO: return the number of items per person by dividing totalItems by people
+  const itemsPP = totalItems / people
+  return itemsPP
 }
